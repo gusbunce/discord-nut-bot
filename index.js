@@ -5,11 +5,6 @@ bot.login(process.env.token);
 
 bot.on('message', async message => {
     if (!message.guild) return;
-    if (message.content === '/moan.mp3') {
-        if (message.member.voice.channel) {
-            connection.play('./sounds/gus-moan')
-        }
-    }
     if (message.content === '/nut') {
         if (message.member.voice.channel) {
             var connection = await message.member.voice.channel.join();
