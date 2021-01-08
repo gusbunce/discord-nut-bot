@@ -7,7 +7,6 @@ bot.on('message', async message => {
     if (!message.guild) return;
     if (message.content === '/moan.mp3') {
         if (message.member.voice.channel) {
-            var connection = await message.member.voice.channel.join();
             connection.play('./sounds/gus-moan')
         }
     }
