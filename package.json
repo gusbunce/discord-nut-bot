@@ -1,0 +1,25 @@
+{
+  "name": "discord-nut-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusbunce/discord-nut-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusbunce/discord-nut-bot/issues"
+  },
+  "homepage": "https://github.com/gusbunce/discord-nut-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.2.7",
+    "opusscript": "0.0.7"
+  }
+}
