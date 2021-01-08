@@ -1,7 +1,7 @@
 var Discord = require('discord.js');
 var bot = new Discord.Client();
 
-bot.login('Nzk2MzUxNDYzNTc5NzEzNTU2.X_WqGA.GzQ4GEjYgA9lxVzwQS-z7MqCkgA');
+bot.login('process.env.token');
 
 bot.on('message', async message => {
     if (!message.guild) return;
